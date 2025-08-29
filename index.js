@@ -21,9 +21,24 @@ app.get('/students', (req, res)=>{
   res.send(students)
 });
 
+app.get('/students/:id',(req,res)=>{
+  const id = req.params.id;
+  if(!id) {
+    res.status(400).send({message:"ID is required"});
+    return;
+  }
+
+  const student = students.find((s)=>s.id==id);
+  if(!student){
+    res.status(404).send({message:`Student with the id: ${id} is not found`});
+    return;
+  }
+
+  return res.send(student);
+})
 app.post('/students', (req, res)=>{
   const student = {
-    id: students.id,
+    id: students.id.toString(),
     name: req.body.name,
     age: req.body.age,
     score: req.body.score
