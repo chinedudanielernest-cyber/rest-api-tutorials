@@ -1,0 +1,121 @@
+export const students = [{
+  id: 1,
+  first_name: "Chelsea",
+  last_name: "Aleswell",
+  gender: "Female",
+  score: "43"
+}, {
+  id: 2,
+  first_name: "Riley",
+  last_name: "Hartburn",
+  gender: "Male",
+  score: "74"
+}, {
+  id: 3,
+  first_name: "Roanne",
+  last_name: "Couser",
+  gender: "Female",
+  score: "19"
+}, {
+  id: 4,
+  first_name: "Tynan",
+  last_name: "Hampshaw",
+  gender: "Male",
+  score: "30"
+}, {
+  id: 5,
+  first_name: "Evaleen",
+  last_name: "Grabban",
+  gender: "Male",
+  score: "93"
+}, {
+  id: 6,
+  first_name: "Conchita",
+  last_name: "Hansley",
+  gender: "Female",
+  score: "70"
+}, {
+  id: 7,
+  first_name: "Josefa",
+  last_name: "Dalli",
+  gender: "Femal",
+  score: "66"
+}, {
+  id: 8,
+  first_name: "Christoffer",
+  last_name: "Le Guin",
+  gender: "Male",
+  score: "80"
+}, {
+  id: 9,
+  first_name: "Terrijo",
+  last_name: "Sanchis",
+  gender: "Female",
+  score: "63"
+}, {
+  id: 10,
+  first_name: "Marissa",
+  last_name: "Gherarducci",
+  gender: "Female",
+  score: "92"
+}, {
+  id: 11,
+  first_name: "Layney",
+  last_name: "Eastabrook",
+  gender: "Female",
+  score: "51"
+}, {
+  id: 12,
+  first_name: "Kippie",
+  last_name: "Roof",
+  gender: "Female",
+  score: "81"
+}, {
+  id: 13,
+  first_name: "Fedora",
+  last_name: "Letchmore",
+  gender: "Female",
+  score: "23"
+}, {
+  id: 14,
+  first_name: "Fancy",
+  last_name: "Bauduin",
+  gender: "Female",
+  score: "60"
+}, {
+  id: 15,
+  first_name: "Nicolette",
+  last_name: "Fidele",
+  gender: "Female",
+  score: "31"
+}, {
+  id: 16,
+  first_name: "Maribelle",
+  last_name: "Swyer-Sexey",
+  gender: "Female",
+  score: "13"
+}, {
+  id: 17,
+  first_name: "Jesse",
+  last_name: "Creek",
+  gender: "Male",
+  score: "27"
+}, {
+  id: 18,
+  first_name: "Chen",
+  last_name: "Fewkes",
+  gender: "Male",
+  score: "49"
+}, {
+  id: 19,
+  first_name: "Ellery",
+  last_name: "Stanton",
+  gender: "Male",
+  score: "8"
+}, {
+  id: 20,
+  first_name: "Eve",
+  last_name: "Blain",
+  gender: "Female",
+  score: "100"
+}]
