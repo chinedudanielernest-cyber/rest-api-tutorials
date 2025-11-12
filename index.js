@@ -1,7 +1,6 @@
 import express from 'express'
 const app = express();
 const PORT = 8000
-const aboutUs = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda pariatur, nulla possimus vitae nisi ab et. Doloribus, nostrum ipsa fuga aperiam, similique ullam sapiente dolor laudantium optio odio natus dolores asperiores delectus, ratione quisquam aliquam eum? Quisquam ullam, vel rem dignissimos facilis dolor accusantium distinctio rerum molestiae magni pariatur beatae accusamus? Neque obcaecati rerum unde ullam nesciunt esse quas quisquam quam omnis itaque aperiam nam ad quibusdam minima exercitationem repellendus cum molestias, ea adipisci magnam. Eligendi minima quis dolore aspernatur? Ipsa veniam natus, quod optio voluptatibus ipsum minus ratione recusandae molestiae expedita culpa nobis praesentium nesciunt, cum accusantium, vel asperiores?' 
 const students = [{
   id: 1,
   firstName:'Ernest',
@@ -90,7 +89,7 @@ app.get('/', (req, res)=>{
 });
 
 app.get('/about', (req, res)=>{
-  res.send(`This is all our students for the year ${students} and this note ${aboutUs} will be sent to their parents for next year session before their resumption in the school.`)
+  res.send('Welcome to our about page and it exist')
 });
 
 app.get('/scores', (req, res)=>{
